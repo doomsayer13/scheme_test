@@ -1,0 +1,29 @@
+=== CLEAN TARGET iosapp OF PROJECT iosapp WITH CONFIGURATION Debug ===
+
+Check dependencies
+[BCEROR]Signing for "iosapp" requires a development team. Select a development team in the project editor.
+[BCEROR]Code signing is required for product type 'Application' in SDK 'iOS 10.1'
+
+Create product structure
+/bin/mkdir -p /Users/macintosh/Library/Developer/Xcode/DerivedData/iosapp-eylqknrhtadbjvhgevtgtlyoqcao/Build/Products/Debug-iphoneos/iosapp.app
+
+Clean.Remove clean /Users/macintosh/Library/Developer/Xcode/DerivedData/iosapp-eylqknrhtadbjvhgevtgtlyoqcao/Build/Intermediates/iosapp.build/Debug-iphoneos/iosapp.build
+    builtin-rm -rf /Users/macintosh/Library/Developer/Xcode/DerivedData/iosapp-eylqknrhtadbjvhgevtgtlyoqcao/Build/Intermediates/iosapp.build/Debug-iphoneos/iosapp.build
+
+Clean.Remove clean /Users/macintosh/Library/Developer/Xcode/DerivedData/iosapp-eylqknrhtadbjvhgevtgtlyoqcao/Build/Products/Debug-iphoneos/iosapp.app
+    builtin-rm -rf /Users/macintosh/Library/Developer/Xcode/DerivedData/iosapp-eylqknrhtadbjvhgevtgtlyoqcao/Build/Products/Debug-iphoneos/iosapp.app
+
+** CLEAN SUCCEEDED **
+
+=== BUILD TARGET iosapp OF PROJECT iosapp WITH CONFIGURATION Release ===
+
+Check dependencies
+Signing for "iosapp" requires a development team. Select a development team in the project editor.
+Code signing is required for product type 'Application' in SDK 'iOS 10.1'
+
+** ARCHIVE FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
